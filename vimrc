@@ -6,5 +6,6 @@ if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
 endif
 nmap <F8> :TagbarToggle<CR>
-let g:tagbar_ctags_bin = 'ctags'  
-let g:tagbar_width = 60 
+let g:tagbar_ctags_bin='/usr/bin/ctags'
+let g:tagbar_width = 40 
+let g:tagbar_sort = 0

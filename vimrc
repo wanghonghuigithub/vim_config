@@ -9,6 +9,7 @@ endif
 "for basic
 set nu
 map <C-f> :bn<cr>
+map <C-e> :bw<cr>
 
 "for tagbar
 nmap <F8> :TagbarToggle<CR>
